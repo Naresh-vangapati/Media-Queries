@@ -1,0 +1,130 @@
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.image{
+    width: 300px;
+    height: 300px;
+}
+.container4{
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 20px;
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.container5{
+    width: 400px;
+    border: 1px solid;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container6{
+    height: 300px;
+    width: 300px;
+   border: 1px solid;
+}
+.container7{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container8{
+    display: flex;
+    flex-direction: column;
+}
+.container9{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    background-color: lightblue;
+}
+.slidebar{
+    background-color: green;
+}
+.webpage{
+    display: flex;
+    background-color: aliceblue;
+}
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .container{
+        background-color:lightblue;
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+    .container2{
+        font-size :18px;
+    }
+}
+@media screen and (min-width :480px) {
+    div{
+        display: flex;
+    }
+}
+@media screen and (min-width : 500px) and (max-width : 800px) {
+    h1{
+        color: green;
+    }
+}
+@media screen and (max-width : 400px) {
+    img{
+        display:none;
+    }
+}
+@media screen and (min-width : 1024px) {
+    .container4{
+        padding: 20px;
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+    .header{
+        background-color: lightgrey;
+    }
+}
+@media screen and (max-width : 480px) {
+    p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 600px) {
+    .container6>img{
+        width: 100%;
+    }
+}
+@media screen and (min-width : 700px) and (max-width : 1200px) {
+    a{
+        color: blue;
+    }
+}
+@media screen and (min-width : 500px) and (max-width : 800px){
+     h2{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width :  1024px) {
+    .container9{
+        border: 2px solid black;
+    }
+}
+@media screen and (min-width : 800px) and (max-width : 1200px) {
+    .slidebar{
+        width: 250px;
+    }
+}
+@media screen and (min-width : 600px){
+    .webpage{
+        flex-direction: column;
+    }
+}
